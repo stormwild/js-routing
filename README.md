@@ -41,6 +41,17 @@ Add scripts:
 }
 ```
 
+## Usage
+
+Create `.env` file and specify available port. See `.env.example`
+
+Run for local development
+
+```sh
+npm i 
+npm run dev
+```
+
 ## Notes
 
 [How to set up TypeScript with Node.js and Express](https://blog.logrocket.com/how-to-set-up-node-typescript-express/)
