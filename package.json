@@ -1,0 +1,11 @@
+{
+  "name": "js-routing",
+  "version": "1.0.0",
+  "description": "Client-side Routing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander R. Torrijos <artorrijos@gmail.com> (https://stormwild.github.io/)",
+  "license": "MIT"
+}
