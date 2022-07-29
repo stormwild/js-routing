@@ -45,3 +45,4 @@ Add scripts:
 
 [How to set up TypeScript with Node.js and Express](https://blog.logrocket.com/how-to-set-up-node-typescript-express/)
 
+[Understanding client side routing by implementing a router in Vanilla JS – Will Taylor Blog](https://www.willtaylor.blog/client-side-routing-in-vanilla-js/#:~:text=Client%20side%20routing%20is%20a,fetch%20and%20display%20new%20content.)
