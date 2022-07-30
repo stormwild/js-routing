@@ -4,12 +4,14 @@
   "description": "Client-side Routing",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\"",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q index.ts\"",
     "build": "npx tsc",
-    "start": "node dist/index.js",
+    "watch": "npx tsc --watch",
+    "start": "ts-node index.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "precommit": "eslint ."
   },
+  "type": "module",
   "author": "Alexander R. Torrijos <artorrijos@gmail.com> (https://stormwild.github.io/)",
   "license": "MIT",
   "dependencies": {
@@ -29,6 +31,7 @@
     "husky": "^8.0.1",
     "nodemon": "^2.0.19",
     "prettier-eslint": "^15.0.1",
+    "ts-node": "^10.9.1",
     "typescript": "^4.7.4"
   }
 }

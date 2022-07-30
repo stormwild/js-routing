@@ -95,6 +95,8 @@ npm run dev
 
 [How to use Prettier with ESLint](https://www.robinwieruch.de/prettier-eslint/)
 
+[Building a Node.js/TypeScript REST API, Part 1: Express.js](https://www.toptal.com/express-js/nodejs-typescript-rest-api-pt-1)
+
 ### Concepts
 
 > #### What is client side routing?

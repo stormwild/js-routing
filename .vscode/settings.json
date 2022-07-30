@@ -1,0 +1,10 @@
+{
+  "prettier.semi": true,
+  "typescript.format.insertSpaceAfterSemicolonInForStatements": false,
+  "javascript.format.insertSpaceAfterSemicolonInForStatements": false,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "typescript.format.semicolons": "ignore",
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.preferences.quoteStyle": "single"
+}

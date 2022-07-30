@@ -1,11 +1,10 @@
 {
   "root": true,
-  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "plugin:prettier/recommended"],
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": { "project": ["./tsconfig.json"] },
   "plugins": ["@typescript-eslint"],
   "rules": {
-    "prettier/prettier": "error",
     "@typescript-eslint/strict-boolean-expressions": [
       2,
       {
@@ -14,5 +13,9 @@
       }
     ]
   },
-  "ignorePatterns": ["src/**/*.test.ts", "src/frontend/generated/*", "dist"]
+  "ignorePatterns": ["src/**/*.test.ts", "src/frontend/generated/*", "dist"],
+  "env": {
+    "browser": true,
+    "node": true
+  }
 }
