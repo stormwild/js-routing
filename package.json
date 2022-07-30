@@ -7,7 +7,8 @@
     "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\"",
     "build": "npx tsc",
     "start": "node dist/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "eslint ."
   },
   "author": "Alexander R. Torrijos <artorrijos@gmail.com> (https://stormwild.github.io/)",
   "license": "MIT",
@@ -18,8 +19,16 @@
   "devDependencies": {
     "@types/express": "^4.17.13",
     "@types/node": "^18.6.2",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
     "concurrently": "^7.3.0",
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-recommended": "^4.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.1",
     "nodemon": "^2.0.19",
+    "prettier-eslint": "^15.0.1",
     "typescript": "^4.7.4"
   }
 }
